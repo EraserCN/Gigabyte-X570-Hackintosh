@@ -2,15 +2,18 @@
  Run macOS with your AMD X570-based PC
 ![Screenshot 2024-07-18 at 9.30.46 PM](assets/Screenshot%202024-07-18%20at%209.30.46%E2%80%AFPM.png)
 
-## System Configuration
-
-- **Motherboard:** Gigabyte X570 Gaming X
-- **Ethernet:** RTL 8111 Ethernet
-- **CPU:** AMD Ryzen 5 5600
-- **RAM:** 8GB + 32GB DDR4 3200MHz
-- **GPU:** AMD Radeon RX 6800 XT 16GB
-- **Storage:** SanDisk CloudSpeed 1.92TB SSD
-- **macOS Versions Tested:** 11.4 - 14.3
+## My Hardware  
+Components | Specifications  
+------------ | -------------  
+**Motherboard** | Gigabyte X570 Gaming X
+**CPU** | AMD Ryzen 5 5600 Hexacore
+**Ethernet** | Built-in RTL 8111
+**Graphics** | AMD RX6800 XT 16GB
+**RAM** | 8+32GB DDR4 3200Mhz  
+**Storage** | 512GB WD SN580 NVME SSD for fun
+**Storage** | 1.92TB Sandisk CloudSpeed SSD for hackintosh
+**Storage** | 960GB Samsung PM983a NVME SSD for Windows
+**macOS** | 11.4-14.5
 
 ## Warning
  **This is made for 6 core processors like R5 5600, if you have 8/12/16 cores, please change config.plist.**
@@ -18,6 +21,11 @@
  **Please regenerate PlatformInfo before installation.**
 
  **Resize Bar & Above 4G Decoding have been enabled. If you don't want to enable them, please change ResizeAppleGPUBars to -1.**
+
+ **If you have a RDNA2-based GPU with no native support, such as RX6700/XT/XL, RX6750GRE, RX6950XT, RX6400. Please replace WhateverGreen.kext with NootRX.kext.** 
+
+ **If you're using an APU with built-in Vega iGPU enabled, please add NootRed.kext.**
+
 
 ## Installation Guide
 
@@ -58,7 +66,7 @@
 - macOS Big Sur 11.4
 - macOS Monterey 12.x
 - macOS Ventura 13.x
-- macOS Sonoma 14.0 - 14.3
+- macOS Sonoma 14.0 - 14.5
 
 ## Resources
 
