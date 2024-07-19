@@ -13,9 +13,11 @@
 - **macOS Versions Tested:** 11.4 - 14.3
 
 ## Warning
- This is made for 6 core processors like R5 5600, if you have 8/12/16 cores, please change config.plist.
+ **This is made for 6 core processors like R5 5600, if you have 8/12/16 cores, please change config.plist.**
 
- Please regenerate PlatformInfo before installation. 
+ **Please regenerate PlatformInfo before installation.**
+
+ **Resize Bar & Above 4G Decoding have been enabled. If you don't want to enable them, please change ResizeAppleGPUBars to -1.**
 
 ## Installation Guide
 
@@ -29,10 +31,7 @@
    - Set Initial Display Output to PCIe Slot.
    - SATA AHCI
 
-3. **Clover/OpenCore Configuration**
-   - Configure config.plist with correct SMBIOS settings.
-
-4. **Install macOS**
+3. **Install macOS**
    - Boot from the USB installer.
    - Follow the on-screen instructions to install macOS.
    - Post-installation: Install OpenCore to the macOS drive.
