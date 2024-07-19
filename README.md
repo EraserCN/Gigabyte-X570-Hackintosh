@@ -12,6 +12,11 @@
 - **Storage:** SanDisk CloudSpeed 1.92TB SSD
 - **macOS Versions Tested:** 11.4 - 14.3
 
+## Warning
+ This is made for 6 core processors like R5 5600, if you have 8/12/16 cores, please change config.plist.
+
+ Please regenerate PlatformInfo before installation. 
+
 ## Installation Guide
 
 1. **Prepare macOS Installer**

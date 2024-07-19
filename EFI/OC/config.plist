@@ -1581,29 +1581,6 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
-		<key>Generic</key>
-		<dict>
-			<key>AdviseFeatures</key>
-			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
-			<key>MLB</key>
-			<string>F5K911104QXFHDDA8</string>
-			<key>ProcessorType</key>
-			<integer>1537</integer>
-			<key>ROM</key>
-			<data>EDITHERE</data>
-			<key>SpoofVendor</key>
-			<true/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
-			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
-			<key>SystemSerialNumber</key>
-			<string>F5KYFWZ1P7QM</string>
-			<key>SystemUUID</key>
-			<string>216B89F7-A03E-4934-8936-213462969CD0</string>
-		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
