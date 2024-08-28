@@ -13,7 +13,8 @@ Components | Specifications
 **Storage** | 512GB WD SN580 NVME SSD for fun
 **Storage** | 1.92TB Sandisk CloudSpeed SSD for hackintosh
 **Storage** | 960GB Samsung PM983a NVME SSD for Windows
-**macOS** | 11.4-14.5
+**Storage** | 3.0TB Hitachi HDD for Porn
+**macOS** | 11.4-14.6
 
 ## Warning
  **This is made for 6 core processors like R5 5600, if you have 8/12/16 cores, please change config.plist.**
